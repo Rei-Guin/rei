@@ -1,0 +1,223 @@
+body {
+	margin: 0;
+	background-color: #333;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;    
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+}
+
+.nav-bar li {
+	float: left;
+}
+
+.nav-bar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.75em 1em;
+	text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+	background-color: #111;
+}
+
+#home {
+	height: 60em;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.showcase-div {
+	height: 2em;
+	width: 25%;
+	font-size: 1.5em;
+	background-color: #434343;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 16em;
+}
+
+.showcase-div > span {
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+	top: 0.30em;
+}
+
+#about {
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+}
+
+.about-div {
+	height: inherit;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-size: 1.25em;
+}
+
+.about-div > p {
+	text-align: justify;
+}
+
+.skill-div {
+	width: 65%;
+	text-align: center;
+	margin: auto;
+	font-size: 1.25em;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.grid-item-left {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	margin: 0.5em;
+	background-color: #434343;
+}
+
+.grid-item-right {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	margin: 0.5em;
+	background-color: #434343;
+}
+
+.grid-item-left > h5, .grid-item-right > h5 {
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+.inner-div {
+	overflow: auto;
+	margin: 0.5em;
+	padding: 0.25em;
+}
+
+.inner-div > span {
+	margin: 0.75em;
+}
+
+.exp-bar {
+	background-color: #333;
+	border-radius: 25px;
+	margin: 0.75em;
+	font-size: 0.75em;
+}
+
+.inner-bar {
+	border-radius: 25px;
+	background-color: #348F50;
+}
+
+.portrait {
+	float: right;
+	width: 13em;
+	height: 13em;
+	margin: 1em;
+	border-radius: 80%;
+}
+
+#project, #contact {
+	height: 25em;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.project-title, .contact-title {
+	height: 2em;
+	width: 25%;
+	font-size: 1.5em;
+	background-color: #434343;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 6em;
+}
+
+.project-title > span, .contact-title > span {
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+	top: 0.3em;
+}
+
+.project-div, .contact-div {
+	height: inherit;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-size: 1.25em;
+	color: #fff;
+}
+
+.project-container {
+	background-color: #434343;
+}
+
+.project-container:hover {
+	background-color: #232526;
+}
+
+.project-entry {
+	text-decoration: none;
+}
+
+.project-entry > img {
+	height: 8em;
+	width: 13em;
+	margin: 1em;
+	float: left;
+}
+ 
+.project-entry > h5 {
+	padding: 0.25em;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.project-entry > p {
+	margin: 0.25em;
+	padding: 0.5em;
+	color: #fff;
+}
+
+.contact-div {
+	width: 20%;
+}
+
+.contact-entry {
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+.contact-entry > img {
+	margin: 0.5em;
+}
+
+.contact-entry > span {
+	margin: 0.5em;
+	position: relative;
+	top: 0.2em;
+}
