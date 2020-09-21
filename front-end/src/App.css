@@ -42,12 +42,12 @@ body {
 .showcase-div {
 	height: 2em;
 	width: 25%;
-	font-size: 1.5em;
+	font-size: 2em;
 	background-color: #434343;
 	margin: auto;
 	text-align: center;
 	position: relative;
-	top: 16em;
+	top: 13em;
 }
 
 .showcase-div > span {
@@ -71,6 +71,14 @@ body {
 	font-size: 1.25em;
 }
 
+.about-div > h3 {
+	font-size: 1.5em;
+}
+
+.about-div > h5 {
+	font-size: 1em;
+}
+
 .about-div > p {
 	text-align: justify;
 }
@@ -80,6 +88,10 @@ body {
 	text-align: center;
 	margin: auto;
 	font-size: 1.25em;
+}
+
+.skill-div > h3 {
+	font-size: 1.5em;
 }
 
 .grid-container {
@@ -147,12 +159,12 @@ body {
 .project-title, .contact-title {
 	height: 2em;
 	width: 25%;
-	font-size: 1.5em;
+	font-size: 2em;
 	background-color: #434343;
 	margin: auto;
 	text-align: center;
 	position: relative;
-	top: 6em;
+	top: 5em;
 }
 
 .project-title > span, .contact-title > span {
@@ -169,6 +181,10 @@ body {
 	margin: auto;
 	font-size: 1.25em;
 	color: #fff;
+}
+
+.project-div > h3 {
+	font-size: 1.5em;
 }
 
 .project-container {
