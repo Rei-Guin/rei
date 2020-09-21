@@ -325,11 +325,11 @@ function ContactContainer() {
             </div>
             <div className="contact-entry">
                 <img src={linkedin_icon} alt="linkedin icon"/>
-                <span><a href="#about" style={{textDecoration: "none", color: "#0575E6"}}>Jason Luong</a></span>
+                <span><a href="https://www.linkedin.com/in/jason-luong-622a10163/" target="_blank" style={{textDecoration: "none", color: "#0575E6"}}>Jason Luong</a></span>
             </div>
             <div className="contact-entry">
                 <img src={github_icon} alt="github icon"/>
-                <span><a href="#project" style={{textDecoration: "none", color: "#0575E6"}}>github template link</a></span>
+                <span><a href="https://github.com/Rei-Guin" target="_blank" style={{textDecoration: "none", color: "#0575E6"}}>Github</a></span>
             </div>
         </div>
     );
